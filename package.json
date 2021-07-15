@@ -1,0 +1,31 @@
+{
+    "name": "@yicode/yigezi",
+    "version": "1.0.0",
+    "description": "a pure css responsive layout framework",
+    "main": "index.js",
+    "scripts": {
+        "dev": "gulp"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://e.coding.net/chensuiyi/yicode/yigezi.git"
+    },
+    "keywords": [
+        "css",
+        "pure",
+        "framework",
+        "layout",
+        "responsive",
+        "grid",
+        "flex"
+    ],
+    "author": "chensuiyi <bimostyle@qq.com>",
+    "license": "MIT",
+    "dependencies": {},
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-cli": "^2.3.0",
+        "gulp-sass": "^5.0.0",
+        "sass": "^1.35.2"
+    }
+}
