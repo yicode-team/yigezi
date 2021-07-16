@@ -3,7 +3,13 @@ let gulpSass = require("gulp-sass")(require("sass"));
 async function public_default() {
     gulp.src("./src/yigezi.scss")
         //
-        .pipe(gulpSass().on("error", gulpSass.logError))
+        .pipe(
+            gulpSass({
+                outputStyle: "compressed",
+                precision: 5,
+                sourceMap: true,
+            }).on("error", gulpSass.logError)
+        )
         .pipe(gulp.dest("./dist"));
     await Promise.resolve("");
 }
