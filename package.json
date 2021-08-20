@@ -23,9 +23,12 @@
     "license": "MIT",
     "dependencies": {},
     "devDependencies": {
+        "autoprefixer": "^10.3.1",
         "gulp": "^4.0.2",
         "gulp-cli": "^2.3.0",
+        "gulp-postcss": "^9.0.0",
         "gulp-sass": "^5.0.0",
+        "postcss": "^8.3.5",
         "sass": "^1.35.2"
     }
 }

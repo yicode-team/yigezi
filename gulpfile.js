@@ -5,7 +5,7 @@ async function public_default() {
         //
         .pipe(
             gulpSass({
-                outputStyle: "compressed",
+                // outputStyle: "compressed",
                 precision: 5,
                 sourceMap: true,
             }).on("error", gulpSass.logError)
