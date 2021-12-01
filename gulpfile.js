@@ -10,7 +10,7 @@ async function public_default() {
                 sourceMap: true,
             }).on("error", gulpSass.logError)
         )
-        .pipe(gulp.dest("./dist"));
+        .pipe(gulp.dest("./docs"));
     await Promise.resolve("");
 }
 gulp.watch("./src/**/*.scss", gulp.series(public_default));
