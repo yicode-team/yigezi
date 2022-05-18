@@ -1,10 +1,9 @@
-@use 'sass:color';
-@use 'sass:math';
-@use 'sass:map';
+@use "sass:color";
+@use "sass:math";
+@use "sass:map";
 @use "grid";
-@use 'breakpoint';
-@use 'gutter';
-@import "normalize.scss";
+@use "breakpoint";
+@use "gutter";
 .yigezi {
     box-sizing: border-box;
     .row {
@@ -62,9 +61,7 @@
                 @each $value in $valueList {
                     &.fix-#{$value}-#{ $devideKey} {
                         $width: math.div($value, $devideKey) * 100%;
-                        flex-basis: $width;
-                        flex-grow: 0;
-                        flex-shrink: 0;
+                        flex: 0 0 $width;
                     }
                 }
             }
@@ -73,9 +70,7 @@
                     @each $value in $valueList {
                         &.sm-#{$value}-#{ $devideKey} {
                             $width: math.div($value, $devideKey) * 100%;
-                            flex-basis: $width;
-                            flex-grow: 0;
-                            flex-shrink: 0;
+                            flex: 0 0 $width;
                         }
                     }
                 }
@@ -85,9 +80,7 @@
                     @each $value in $valueList {
                         &.mb-#{$value}-#{ $devideKey} {
                             $width: math.div($value, $devideKey) * 100%;
-                            flex-basis: $width;
-                            flex-grow: 0;
-                            flex-shrink: 0;
+                            flex: 0 0 $width;
                         }
                     }
                 }
@@ -97,9 +90,7 @@
                     @each $value in $valueList {
                         &.pad-#{$value}-#{ $devideKey} {
                             $width: math.div($value, $devideKey) * 100%;
-                            flex-basis: $width;
-                            flex-grow: 0;
-                            flex-shrink: 0;
+                            flex: 0 0 $width;
                         }
                     }
                 }
@@ -109,9 +100,7 @@
                     @each $value in $valueList {
                         &.pc-#{$value}-#{ $devideKey} {
                             $width: math.div($value, $devideKey) * 100%;
-                            flex-basis: $width;
-                            flex-grow: 0;
-                            flex-shrink: 0;
+                            flex: 0 0 $width;
                         }
                     }
                 }
@@ -121,9 +110,7 @@
                     @each $value in $valueList {
                         &.lg-#{$value}-#{ $devideKey} {
                             $width: math.div($value, $devideKey) * 100%;
-                            flex-basis: $width;
-                            flex-grow: 0;
-                            flex-shrink: 0;
+                            flex: 0 0 $width;
                         }
                     }
                 }

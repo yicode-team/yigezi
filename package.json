@@ -1,10 +1,11 @@
 {
-    "name": "@yicode/yigezi",
+    "name": "yigezi",
     "version": "1.0.0",
-    "description": "a pure css responsive layout framework",
+    "description": "易格子-纯粹的CSS栅格布局库",
     "main": "index.js",
     "scripts": {
-        "dev": "gulp"
+        "tonpm": "release-it",
+        "dev": "cross-env RELEASE_TYPE=dev gulp"
     },
     "repository": {
         "type": "git",
@@ -21,14 +22,17 @@
     ],
     "author": "chensuiyi <bimostyle@qq.com>",
     "license": "MIT",
-    "dependencies": {},
     "devDependencies": {
-        "autoprefixer": "^10.3.1",
+        "autoprefixer": "^10.4.7",
+        "cross-env": "^7.0.3",
+        "del": "^6.1.0",
         "gulp": "^4.0.2",
-        "gulp-cli": "^2.3.0",
-        "gulp-postcss": "^9.0.0",
-        "gulp-sass": "^5.0.0",
-        "postcss": "^8.3.5",
-        "sass": "^1.35.2"
+        "gulp-postcss": "^9.0.1",
+        "gulp-rename": "^2.0.0",
+        "gulp-sass": "^5.1.0",
+        "lodash": "^4.17.21",
+        "postcss": "^8.4.13",
+        "release-it": "^15.0.0",
+        "sass": "^1.51.0"
     }
 }
