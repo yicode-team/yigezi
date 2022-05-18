@@ -1,6 +1,6 @@
 {
     "name": "yigezi",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "易格子-纯粹的CSS栅格布局库",
     "main": "index.js",
     "scripts": {
