@@ -9,10 +9,11 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://e.coding.net/chensuiyi/yicode/yigezi.git"
+        "url": "https://github.com/chenbimo/yigezi"
     },
     "keywords": [
         "css",
+        "scss",
         "pure",
         "framework",
         "layout",
