@@ -14,7 +14,7 @@
 
 ## 演示
 
-[演示 demo](https://gitee.com/chenbimo/yigezi)
+[演示 demo](https://chenbimo.gitee.io/yigezi)
 
 ## 特点
 
