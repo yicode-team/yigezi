@@ -4,7 +4,7 @@
 
 ## 文档
 
-[请展开菜单 开源项目/yigezi](https://chensuiyi.com)
+[yigezi 官方文档](https://chensuiyi.com/markdown/%E5%BC%80%E6%BA%90%E9%A1%B9%E7%9B%AE/yigezi/1-%E5%9F%BA%E6%9C%AC%E7%AE%80%E4%BB%8B.html)
 
 ## 仓库
 
